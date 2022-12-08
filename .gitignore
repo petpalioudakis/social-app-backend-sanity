@@ -21,4 +21,16 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.idea/
+# TypeScript
+tsconfig.tsbuildinfo
+
+# Sanity temp folders
+.sanity
+
+#IntelliJ
+.idea
+*.iml
+.eslintcache
+
+# Output of `etl` actions
+etc
